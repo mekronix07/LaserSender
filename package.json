@@ -1,13 +1,13 @@
 {
-  "name": "presentation-sender",
-  "version": "3.0.0",
+  "name": "presentation-receiver",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "firebase": "^10.7.1",
-    "jszip": "^3.10.1"
+    "pdfjs-dist": "^3.11.174"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,20 +16,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
+    "extends": ["react-app"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
